@@ -28,23 +28,6 @@ header{
     z-index: 1000;
 }
 
-section{
-    position: relative;
-    height: calc(100vh - 3rem);
-    width: 100%;
-    background: url('bg.jpg') no-repeat top center / cover;
-    overflow: hidden;
-}
-
-.overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgb(56, 165, 238, 0.5);
-}
-
 .container{
     max-width: 90rem;
     padding: 0 2rem;
@@ -69,17 +52,9 @@ section{
     margin-top: 16px;
 }
 
-.log-sign{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
 .logo{
     color: black;
     font-size: 1.2rem;
-    /* font-weight: 400; */
     font-weight: bold;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -327,7 +302,6 @@ section{
         top: 3rem;
         left: 0;
         width: 100%;
-        /* background-color: #69bde7; */
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -342,8 +316,7 @@ section{
         transform: translateX(0);
     }
 
-    #check:checked ~ .nav-btn .nav-link,
-    #check:checked ~ .nav-btn .log-sign{
+    #check:checked ~ .nav-btn .nav-link{
         animation: animation .5s ease forwards var(--i);
     }
 
@@ -397,11 +370,6 @@ section{
         display: block;
     }
 
-    /* .nav-link:hover > a > i,
-    .dropdown-link:hover > a > i{
-        transform: rotate(360deg);
-    } */
-
     .dropdown-link > a{
         background-color: transparent;
         color: black;
@@ -447,7 +415,6 @@ section{
 
     .nav-link > a > i{
         font-size: 1.1rem;
-        /* transform: rotate(-90deg); */
         transition: .7s;
     }
 
