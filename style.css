@@ -8,9 +8,12 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-top: 20px;
+    background-color: #ECF5F7 ;
 }
+
+/* Navbar */
 
 ul{
     list-style: none;
@@ -424,4 +427,448 @@ header{
     }
 
     
+}
+
+/* VISION AND MOTO */
+
+
+.vision-moto{
+    display: block;
+    position: relative;
+    margin-top: 50px;
+}
+
+.vision-moto-pics{
+    position: absolute;
+    left: -5px;
+}
+
+.back-border{
+    background-color: #2166AA;
+    padding: 0;
+    width: 913px;
+    margin-top: 0;
+    height: 573px;
+    clip-path: polygon(0 0 , 864px 0px , 864px 569px, 0 569px , 0px 0px , 864px 0px , 909px 284px , 864px 567px);
+}
+
+.vision-moto-pics #carouselExampleIndicators{
+   
+    width: 895px;
+    height: 565px;
+    clip-path: polygon(0 0 , 860px 0px , 860px 565px, 0 565px , 0px 0px , 860px 0px , 905px 282px , 860px 565px);
+}
+
+.vision-moto-pics .carousel-item img{
+     margin: 4px;
+    width: 905px;
+    height: 575px;
+}
+
+.vision-moto-pics #carouselExampleIndicators li{
+    width: 13px;
+    height: 13px;
+    background-color: #2166AA;
+    border-radius: 50%;
+}
+
+.vision-moto-pointers{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #2166AA;
+    width: 796px;
+    height: 274px;
+    clip-path: polygon(80px 0 , 796px 0 , 796px 274px,80px 273px ,0 137px);
+}
+
+.vision-moto-pointers-text{
+    padding-left: 70px;
+    background-color: white;
+    margin: 8px;
+    width: 788px;
+    height: 266px;
+    clip-path: polygon(77px 0 , 788px 0 , 787px 258px , 80px 258px , 4px 130px);
+    line-height: 45px;
+}
+
+.vision-moto-pointers-text .bullet div{
+    
+    margin: 10px 20% 0 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #37CAF0;
+    color: white;
+}
+
+.vision-moto-pointers-text .vm-point{
+    color: rgba(0,0,0,0.6);
+    margin: 18px 0 ;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.vision-moto-pointers-text .row{
+    width: 700px;
+    height: 60px;
+}
+
+.vision-moto-head{
+    position: absolute;
+    padding-left: 70px;
+    right: 0;
+    top: 313px;
+    width: 790px;
+    height: 78px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: #EB9661;
+    color: #F2DF58;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FFF500;
+    clip-path: polygon(0 0 , 790px 0 , 790px 78px , 55px 78px);
+}
+
+.vision-moto-head p{
+    margin-top: 7px;
+}
+
+.vision-moto-deco{
+    position: absolute;
+    right: 0;
+    top: 384px;
+    width: 610px;
+    height: 90px;
+    background-color: #2166AA;
+    clip-path: polygon(0 0 , 610px 0 , 610px 90px , 65px 90px);
+}
+
+.vision-moto-arrow{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 464px;
+    right: 486px;
+}
+
+.vision-moto-arrow div{
+    width: 13px;
+    height: 50px;
+    background-color: #2166AA;
+    transform: skew(38deg);
+    position: absolute;
+    top: 9px;
+    right: 27px;
+}
+
+.vision-moto-arrow svg {
+    fill: #000000;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: 9px;
+    right: -17px;
+}
+
+.white-break{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 300px;
+    height: 10px;
+    background-color: white;
+    clip-path: polygon(0 0 , 300px 0 , 300px 10px , 15px 10px);
+}
+
+/* FOUNDERS */
+
+.founder-box{
+    width: 950px;
+    height: 415px;
+    position: relative;
+    top: 45rem;
+    margin: 2% auto;
+    background-color: white;
+}
+
+.founder-section{
+    height: 415px;
+}
+
+.co-founder{
+    border-radius: 110px;
+    width: 373px;
+    height: 161px;
+    background-color: rgba(191,255,255,0.6);
+    margin: 7% 0 7% 10%;
+}
+
+.co-founder-pic img{
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+    margin: 7.8% auto;
+}
+
+.co-text{
+    font-family: Helvetica Neue;
+    margin: 11.7% auto;
+    line-height: 16px;
+}
+
+.late{
+    margin: 15.7% auto;
+}
+
+.co-text p{
+    font-size: 16px;
+    color: #4a4b4b;
+    margin: 0;
+}
+
+.co-text span{
+    font-size: 14px;
+    color: #686868;
+}
+
+.coordinator{
+    border-radius: 150px;
+    width: 440px;
+    height: 275px;
+    background-color: rgba(191,255,255,0.6);
+    margin-top: 15%;
+}
+
+.coordinator-pic img{
+    width: 240px;
+    height: 240px; 
+    border-radius: 100%;
+    margin: 10% auto;
+}
+
+.coordinator .co-text{
+    padding-left: 19%;
+    padding-top: 10%;
+}
+
+.founder-box svg{
+    position: absolute;
+}
+
+.founder-box .down-svg{
+    bottom: 0;
+    display: none;
+}
+
+/* CARDS */
+
+.work-card{
+    margin-top: 50rem;
+    width: 100%;
+    background: url(scribble.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-card{
+    width: 550px;
+    height: 455px;
+    position : relative;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.main-card .card-head{
+    background-color: #EB9661;
+    position: absolute;
+    top: 27px;
+    right: 250px;
+}
+
+.main-card .card-head-text{
+    width: 330px;
+    text-align: right;
+    color: white;
+    line-height: 50px;
+    font-size: 37px;
+}
+
+.main-card .triangle{
+    border-bottom: 50px solid  #EB9661;
+	border-right: 50px solid transparent;
+	height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: -50px;
+}
+
+.main-card .anker{
+    width: 90px;
+    height: 90px;
+    border-bottom: 25px solid #EB9661;
+    border-right: 25px solid #EB9661;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.main-card img{
+    width: 455px;
+    height: 455px;
+    position: absolute;
+    right: 0;
+}
+
+
+/* RESPONSIVENESS OF CONTANT */
+
+@media (max-width: 1400px){
+    .main-card{
+        margin-left: 70px;
+    }
+
+}
+
+@media (max-width: 1274px){
+    .main-card:nth-of-type(2n+1){
+        margin-left: 140px;
+    }
+   
+    .main-card:nth-of-type(2n){
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 1140px){
+    .main-card{
+        padding: 60px auto
+    }
+}
+
+@media (max-width: 992px) {
+    .founder-box{
+        width: 100%;
+    }
+
+    .coordinator{
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 917px) {
+    .back-border{
+        width: 101%;
+        height: 573px;
+        clip-path: polygon(0 0 , 101% 0px , 101% 569px, 0 569px );
+    }
+    
+    .vision-moto-pics #carouselExampleIndicators{
+        width: 101%;
+        height: 565px;
+        clip-path: polygon(0 0 , 101% 0px , 101% 565px, 0 565px );
+    }
+}
+
+
+@media (max-width: 845px) {
+    .co-founder{
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 806px) {
+    .main-card .triangle {
+        border-bottom: 38px solid #EB9661;
+        border-right: 38px solid transparent;
+        right: -38px;
+    }
+
+    .main-card .card-head-text {
+        width: 230px;
+        line-height: 38px;
+        font-size: 25px;
+    }
+
+    .main-card {
+        width: 355px;
+        height: 355px;
+    }
+
+    .main-card img {
+        width: 355px;
+        height: 355px;
+    }
+
+    .main-card .anker {
+        width: 60px;
+        height: 60px;
+        border-bottom: 15px solid #EB9661;
+        border-right: 15px solid #EB9661;
+        border-left: 15px solid transparent;
+        border-top: 15px solid transparent;
+    }    
+}
+
+@media (max-width: 768px) {
+    .vision-moto-pointers-text .row{
+        padding-left: 50px;
+    }
+
+    .co-founder{
+        margin: 20px auto 0 auto;
+    }
+
+    .coordinator{
+        margin: 20px auto ;
+    }
+
+    .founder-box{
+        height: auto;
+    }
+
+    .founder-box .down-svg{
+        bottom: 0;
+        display: block;
+    }
+}
+
+@media (max-width: 725px){
+    .vision-moto-pointers-text .row{
+        width: 100%;
+        padding-left: 150px;
+    }
+
+    .white-break , .vision-moto-deco , .vision-moto-arrow{
+        display: none;
+    }
+
+    .vision-moto-head{
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        clip-path: polygon(0 0 , 100% 0 , 100% 78px , 0 78px);
+    }
+
+}
+
+@media (max-width: 637px){
+    .work-card .main-card{
+        margin-left: 200px;
+    }
+}
+
+
+@media (max-width: 550px){
+    .vision-moto-pointers-text .row{
+        width: 100%;
+        padding-left: 200px;
+        margin: 0;
+    }
+
 }
