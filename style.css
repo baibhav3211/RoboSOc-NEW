@@ -1041,6 +1041,31 @@ a:link {
     top: 0;
 }
 
+@media screen and (min-width:320px) and (max-width:640px) {
+    h2{
+        padding-top: 5% ;
+        
+    }
+    .train{
+        margin-left: 50px;
+        margin-bottom: 15%;
+    } 
+    .con{
+        margin-left: 30px;
+        margin-top: 33%;
+        float: left;
+        width: 200px;
+        
+    }
+    
+    .ray{
+        margin-left: 30px;
+        margin-top:33%;
+        float: left;
+        width: 100px; 
+    } 
+}
+
 @media only screen and (max-width: 768px){
     h2{
         padding-top: 10%;
