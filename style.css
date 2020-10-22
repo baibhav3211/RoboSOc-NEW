@@ -10,7 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
     /* overflow: hidden; */
     margin-top: 20px;
-    background-color: #ECF5F7 ;
+    background-color: #e6ffff ;
 }
 
 /* Navbar */
@@ -665,6 +665,7 @@ header{
 
 .work-card{
     margin-top: 50rem;
+    padding-left: 4rem;
     width: 100%;
     background: url(scribble.svg);
     background-repeat: no-repeat;
@@ -684,25 +685,14 @@ header{
     background-color: #EB9661;
     position: absolute;
     top: 27px;
-    right: 250px;
+    right: 200px;
+    width: 350px;
+    clip-path: polygon(0 0 ,300px 0 ,350px 50px , 0 50px );
 }
 
-.main-card .card-head-text{
-    width: 330px;
-    text-align: right;
-    color: white;
-    line-height: 50px;
-    font-size: 37px;
-}
-
-.main-card .triangle{
-    border-bottom: 50px solid  #EB9661;
-	border-right: 50px solid transparent;
-	height: 0;
-    width: 0;
-    position: absolute;
-    top: 0;
-    right: -50px;
+.card-head p{
+    color: White;
+    font-size: 2rem;
 }
 
 .main-card .anker{
@@ -776,23 +766,25 @@ header{
 }
 
 
-@media (max-width: 845px) {
+@media (max-width: 845px) { 
     .co-founder{
         margin-left: 3px;
     }
 }
 
 @media (max-width: 806px) {
-    .main-card .triangle {
-        border-bottom: 38px solid #EB9661;
-        border-right: 38px solid transparent;
-        right: -38px;
+    .work-card{
+        padding-left: 1rem;
     }
-
-    .main-card .card-head-text {
-        width: 230px;
-        line-height: 38px;
-        font-size: 25px;
+    .main-card .card-head{
+        top: 27px;
+        right: 150px;
+        width: 300px;
+        clip-path: polygon(0 0 ,250px 0 ,300px 40px , 0 40px );
+    }
+    
+    .card-head p{
+        font-size: 1.5rem;
     }
 
     .main-card {
@@ -860,6 +852,25 @@ header{
 @media (max-width: 637px){
     .work-card .main-card{
         margin-left: 200px;
+    }
+
+    .main-card:nth-of-type(2n) {
+        margin-right: 220px;
+        margin-left: 85px;
+    }
+
+    .main-card:nth-of-type(2n) .card-head{
+        right: -50px;
+        width: 280px;
+        clip-path: polygon(50px 0,280px 0 ,280px 40px , 0 40px );
+    }
+    
+    .main-card:nth-of-type(2n) .card-head P{
+        text-align: right;
+    }
+
+    .main-card .anker{
+        display: none;
     }
 }
 
