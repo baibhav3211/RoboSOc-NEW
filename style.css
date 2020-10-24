@@ -665,13 +665,14 @@ header{
 
 .work-card{
     margin-top: 50rem;
+    margin-right : 0;
+    margin-left: 0;
     padding-left: 4rem;
     width: 100%;
     background: url(scribble.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
-
 
 .main-card{
     width: 550px;
@@ -726,6 +727,10 @@ header{
 }
 
 @media (max-width: 1274px){
+    .work-card{
+        background: none;
+    }
+    
     .main-card:nth-of-type(2n+1){
         margin-left: 140px;
     }
